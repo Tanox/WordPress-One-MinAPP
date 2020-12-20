@@ -4,11 +4,11 @@
 
 # WordPress 连接小程序插件
 
-以下两个插件都可以使用，如果 WordPress 站点安装了 WPJAM BASIC 插件，推荐使用插件下载地址A；如果不需要安装 WPJAM BASIC 插件，则必须使用插件下载地址B
+使用丸子团队开发的免费插件 Mini Program API ，已上传 WordPress 官方插件中心。
 
-> 插件下载地址A：https://github.com/dchijack/WP-REST-API-PRO  
+> 插件下载地址：[https://github.com/dchijack/wp-mini-program](https://github.com/dchijack/wp-mini-program)
 
-> 插件下载地址B：https://github.com/dchijack/WP-REST-API
+> WordPress 插件下载页面：[https://wordpress.org/plugins/wp-mini-program/](https://wordpress.org/plugins/wp-mini-program/)
 
 #### 此小程序为第三方开源小程序，并非官方出品，代码仅开源提供学习交流。
 
@@ -16,19 +16,13 @@
 
 ## 配置说明
 
-> 修改 utils 目录中的 config.js 相关配置：DOMAIN、WEBSITENAME、QRCODEURL、DOWNLOADFILEDOMAIN 等相关参数
+> 修改 utils 目录中的 base.js 相关配置：API_HOST 域名
 
 > #### 注意问题：
 	 1) 每篇文章最好上传一张图; 
 	 2) 上传的图片不能有中文字名称; 
 	 3) 必须有添加信任 Downloads 域名; 
 	 4) 图片链接必须是 HTTPS ;
-
-## 小程序体验
-
-![V微语录](https://github.com/dchijack/WP-REST-API/raw/master/vyulu.jpg)
-
-> 注意，此小程序的功能与体验版功能不完全一致。
 
 ## 微信公众号
 
